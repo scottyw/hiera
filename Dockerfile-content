@@ -1,0 +1,4 @@
+FROM hiera
+
+RUN mkdir -p /hiera
+COPY examples/testdata /hiera
